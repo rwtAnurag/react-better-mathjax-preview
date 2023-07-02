@@ -1,33 +1,39 @@
 # react-better-mathjax-preview
 
- react-better-mathjax-preview provides one React component to render MathML, TeX and many tyes of Maths formulas.
+`react-better-mathjax-preview` provides one React component to render MathML, TeX and many tyes of Maths formulas.
 
+## Installation
 
-# Installation
-  `npm i react-better-mathjax-preview`
+```
+yarn add react-better-mathjax-preview
+```
 
-# Usage
+## Usage
 
-  import MathJaxComponent from "react-better-mathjax-preview"
-
+```js
+import React, {Component} from 'react'
+import MathJaxComponent from "react-better-mathjax-preview"
+ 
   const Demo(){
+      const mathjaxdata='';
       return(
           <>
-            <MathJaxComponent math={`your math equations`}/>
+            <MathJaxComponent math={mathjaxdata}/>
           </>
       )
   }
+```
 
-  export default Demo;
+## Props
 
+### className
+Wrapper classname
 
-# Props
+### id
+Wrapper id
 
-# className
-  Wrapper classname
+### style
+Style object
 
-# id
-  Wrapper id
-
-# style
-  Style object
+### math
+MathJax content

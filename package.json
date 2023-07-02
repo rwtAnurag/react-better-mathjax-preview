@@ -1,6 +1,6 @@
 {
   "name": "react-better-mathjax-preview",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "react-better-mathjax-preview provides React component to render MathML, Latex,TeX many Maths formulas.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rwtAnurag/react-mathjax-latex-preview.git"
+    "url": "git+https://github.com/rwtAnurag/react-better-mathjax-preview.git"
   },
   "keywords": [
     "Mathjax.js"
@@ -17,9 +17,9 @@
   "author": "Anurag Rawat",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rwtAnurag/react-mathjax-latex-preview/issues"
+    "url": "https://github.com/rwtAnurag/react-better-mathjax-preview/issues"
   },
-  "homepage": "https://github.com/rwtAnurag/react-mathjax-latex-preview#readme",
+  "homepage": "https://github.com/rwtAnurag/react-better-mathjax-preview#readme",
   "devDependencies": {
     "@babel/cli": "^7.22.5",
     "@babel/core": "^7.22.5",
